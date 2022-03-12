@@ -47,7 +47,7 @@ With this structure you can render the proper UI
 
 ```
 curl --location --request POST 'http://localhost:5000/api/v1/images/' \
---form 'file=@"/C:/Users/ttehb/OneDrive/Документы/skillaz/gpn/06.10.21-stupid-gpn-migration-dev.xlsx"' \
+--form 'file=@"/C:/Users/ttehb/OneDrive/test.png"' \
 --form 'data="{
     \"fields\": [{
             \"key\": \"Vecto.Images.Plugins.Resizer.ResizerPluginData\",
@@ -69,7 +69,7 @@ curl --location --request POST 'http://localhost:5000/api/v1/images/' \
 
 ```
 curl --location --request POST 'http://localhost:5000/api/v1/images/' \
---form 'file=@"/C:/Users/ttehb/OneDrive/Документы/skillaz/gpn/06.10.21-stupid-gpn-migration-dev.xlsx"' \
+--form 'file=@"/C:/Users/ttehb/OneDrive/test.png"' \
 --form 'data="{
     \"fields\": [{
             \"key\": \"Vecto.Images.Plugins.Resizer.ResizerPluginData\",
@@ -87,7 +87,7 @@ curl --location --request POST 'http://localhost:5000/api/v1/images/' \
 
 ```
 curl --location --request POST 'http://localhost:5000/api/v1/images/' \
---form 'file=@"/C:/Users/ttehb/OneDrive/Документы/skillaz/gpn/06.10.21-stupid-gpn-migration-dev.xlsx"' \
+--form 'file=@"/C:/Users/ttehb/OneDrive/test.png"' \
 --form 'data="{
     \"fields\": [{
             \"key\": \"Vecto.Images.Plugins.Resizer.ResizerPluginData\",
